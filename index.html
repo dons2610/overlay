@@ -1,27 +1,32 @@
 <!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <style>
-body{
-margin:0;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-overflow:hidden;
-background:transparent;
+html, body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  background:transparent;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
+/* wrap untuk mengecilkan tapi tetap proporsional */
 .wrap{
-transform: scale(0.71);
-transform-origin:center center;
+  width:80%;          /* lebar 80% dari overlay */
+  height: auto;       /* tinggi otomatis */
+  max-height:95%;     /* jangan melebihi overlay */
 }
 
 iframe{
-width:1200px;
-height:1600px;
-border:0;
+  width:100%;
+  height:100%;
+  border:0;
 }
 </style>
 </head>
@@ -29,7 +34,7 @@ border:0;
 <body>
 
 <div class="wrap">
-<iframe src="https://sociabuzz.com/pro/tribe/wishlist/4980818153?id=17539&style=1"></iframe>
+  <iframe src="https://sociabuzz.com/pro/tribe/wishlist/4980818153?id=17539&style=1"></iframe>
 </div>
 
 </body>
