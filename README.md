@@ -1,2 +1,31 @@
 # overlay
 kecilin ukuran overlay sosialbuzz
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{
+margin:0;
+overflow:hidden;
+}
+
+.wrap{
+transform: scale(0.45);
+transform-origin: top left;
+width:220%;
+height:220%;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+<iframe src="https://sociabuzz.com/pro/tribe/wishlist/4980818153?id=17539&style=1"
+width="100%" height="100%" frameborder="0"></iframe>
+</div>
+
+</body>
+</html>
